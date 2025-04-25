@@ -1,4 +1,4 @@
-# OOP_N03_Term3_2025_K17_Group99
+# OOP_N03_Term3_2025_K17_Group7
 # 📚 Quản Lý Thư Viện - Java OOP + MySQL
 # 📌 Giới thiệu:
 
