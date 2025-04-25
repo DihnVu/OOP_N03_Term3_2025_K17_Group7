@@ -6,4 +6,4 @@
 4. Nguyen Le Thu
 🧱 Công nghệ sử dụng
 📌 Giới thiệu
-🛒 Quản Lý Sản Phẩm - Java OOP + MySQL + GUI
+📚 Quản Lý Thư Viện - Java OOP + MySQL + GUI
