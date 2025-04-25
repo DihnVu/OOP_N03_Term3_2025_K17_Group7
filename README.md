@@ -10,7 +10,7 @@ Dự án này là một ứng dụng dựa trên ngôn ngữ lập trình Java, 
 3. Nguyen Thanh Dat
 4. Nguyen Le Thu
 
-# 🧱 Công nghệ sử dụng:
+# 🧰 Công nghệ sử dụng
 Java: Ngôn ngữ lập trình chính.
 
 MySQL: Hệ quản trị cơ sở dữ liệu quan hệ để lưu trữ và quản lý dữ liệu.
