@@ -8,7 +8,6 @@ Dự án này là một ứng dụng dựa trên ngôn ngữ lập trình Java, 
 1. Dinh Long Vu
 2. Nguyen Van Tu
 3. Nguyen Thanh Dat
-4. Nguyen Le Thu
 
 # 🧰 Công nghệ sử dụng
 Java: Ngôn ngữ lập trình chính.
