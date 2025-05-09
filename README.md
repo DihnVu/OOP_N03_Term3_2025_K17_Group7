@@ -18,4 +18,8 @@ JDBC (Java Database Connectivity): Được sử dụng để kết nối và t�
 
 Eclipse/IntelliJ IDEA: Môi trường phát triển tích hợp (IDE) để xây dựng và chạy ứng dụng.
 
-
+# Đối tượng cơ sở
+- Thư viện
+- Sách
+- Users
+- Students
