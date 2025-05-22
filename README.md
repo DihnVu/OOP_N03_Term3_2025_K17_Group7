@@ -36,12 +36,12 @@ Project: Xây dựng ứng dụng quản lý thư viện. Yêu cầu chính:
 - Thêm, sửa, xóa sách
 - Liệt kê danh sách sách
 - Lọc sách theo thể loại, tác giả, năm xuất bản,...
-- 👤 Quản lý Độc giả
+👤 Quản lý Độc giả
 - Thêm, sửa, xóa độc giả
 - Liệt kê độc giả
-🔁 Gán sách cho độc giả (Tạo phiếu mượn)
+#🔁 Gán sách cho độc giả (Tạo phiếu mượn)
 Gán Book cho Reader → Tạo mới BorrowRecord
-🛠️ Chức năng mở rộng
+#🛠️ Chức năng mở rộng
 - Tìm kiếm sách theo tên hoặc từ khóa
 - Kiểm tra sách còn trong kho hay đã mượn
 - Trả sách → cập nhật returnDate của BorrowRecord
