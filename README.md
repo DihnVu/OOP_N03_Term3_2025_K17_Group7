@@ -50,4 +50,6 @@ Gán Book cho Reader → Tạo mới BorrowRecord
 - UML Class Diagram (mô tả mối quan hệ giữa các lớp):
 ![image](https://github.com/user-attachments/assets/77ac0b69-48ae-458c-b627-97bd6e435b1c)
 
+# Nội dung 3:
+![image](https://github.com/user-attachments/assets/1014731c-51df-4682-9957-9cca20c883a7)
 
