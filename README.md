@@ -23,3 +23,31 @@ Eclipse/IntelliJ IDEA: Môi trường phát triển tích hợp (IDE) để xây
 - Sách
 - Users
 - Students
+
+
+# Nội dung 1:
+Project: Xây dựng ứng dụng quản lý thư viện. Yêu cầu chính:
+- Java Spring Boot
+- Giao diện đơn giản
+- Dữ liệu lưu vào file nhị phân
+- Lưu trữ nội bộ bằng các Collection như ArrayList , Map , LinkedList,...
+# Chức năng chính:
+📚 Quản lý Sách
+- Thêm, sửa, xóa sách
+- Liệt kê danh sách sách
+- Lọc sách theo thể loại, tác giả, năm xuất bản,...
+👤 Quản lý Độc giả
+- Thêm, sửa, xóa độc giả
+- Liệt kê độc giả
+🔁 Gán sách cho độc giả (Tạo phiếu mượn)
+Gán Book cho Reader → Tạo mới BorrowRecord
+🛠️ Chức năng mở rộng
+- Tìm kiếm sách theo tên hoặc từ khóa
+- Kiểm tra sách còn trong kho hay đã mượn
+- Trả sách → cập nhật returnDate của BorrowRecord
+- Xuất báo cáo mượn/trả theo tháng
+# Nội dung 2:
+- UML Class Diagram (mô tả mối quan hệ giữa các lớp):
+![image](https://github.com/user-attachments/assets/77ac0b69-48ae-458c-b627-97bd6e435b1c)
+
+
