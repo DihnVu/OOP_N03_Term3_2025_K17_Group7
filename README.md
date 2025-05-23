@@ -97,3 +97,6 @@ public class BookList {
     }
 }
 
+# Sequence Diagram
+![65ec6df2-6626-4592-9f5a-6192fb92b173](https://github.com/user-attachments/assets/d90cb324-3eb2-4c20-9b8a-180c2b65e3f7)
+
