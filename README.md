@@ -97,6 +97,9 @@ public class BookList {
     }
 }
 
-# Sequence Diagram
+# Sequence Diagram Add Book
 ![65ec6df2-6626-4592-9f5a-6192fb92b173](https://github.com/user-attachments/assets/d90cb324-3eb2-4c20-9b8a-180c2b65e3f7)
+
+# Sequence Diagram Edit Book
+![5086a730-a858-44ed-88cd-10a6f5e7e069](https://github.com/user-attachments/assets/eb3e6431-664b-4978-9415-3ecc82d59fa8)
 
