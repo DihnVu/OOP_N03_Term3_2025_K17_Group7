@@ -103,3 +103,7 @@ public class BookList {
 # Sequence Diagram Edit Book
 ![5086a730-a858-44ed-88cd-10a6f5e7e069](https://github.com/user-attachments/assets/eb3e6431-664b-4978-9415-3ecc82d59fa8)
 
+# Sequence Diagram Delete Book
+![3237d84b-34ac-4772-afd6-b54a6cbec862](https://github.com/user-attachments/assets/2ff3ff98-7a7f-4723-bf7c-54934726360a)
+
+
