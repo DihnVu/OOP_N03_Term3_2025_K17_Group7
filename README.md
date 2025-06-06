@@ -110,4 +110,6 @@ public class BookList {
 # Lưu Đồ Thuật Toán
 ![image](https://github.com/user-attachments/assets/b012a1a2-c605-4bb5-8897-559113a1686f)
 
+# UML Class 
+![image](https://github.com/user-attachments/assets/96e5b3ef-51fb-4009-aa7b-76498ebc981d)
 
