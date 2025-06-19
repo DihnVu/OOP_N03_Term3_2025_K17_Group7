@@ -12,9 +12,9 @@ public class SachDAO {
 
     public void openConnection() {
         try {
-            String url = "jdbc:mySQL://localhost:3306/library_management"; //library_management
-            String user = "root";
-            String password = "vantu@11";
+            String url = "nhập của bạn vào đây";
+            String user = "tên người dùng của bạn";
+            String password = "mật khẩu của bạn";
             c = DriverManager.getConnection(url, user, password);
             System.out.println("Connection successful!");
         } catch (SQLException e) {
