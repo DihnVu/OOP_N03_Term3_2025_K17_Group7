@@ -1,86 +1,115 @@
-# Quản lý thư viện theo mô hình MVC JavaSwing
-- Tên đề tài : Quản Lý Thư Viện.
-- Ngôn ngữ backend:
-- Cơ sở dữ liệu: MySQL.
+@@ -1,113 +1,115 @@
+# OOP_N03_Term3_2025_K17_Group7
+# 📚 Quản Lý Thư Viện - Java OOP + MySQL
+# 📌 Giới thiệu:
 
-# Mục lục
-  1. [Hướng dẫn cài đặt](#hướng-dẫn-cài-đặt)
-  2. [Các chức năng chính của chương trình](#các-chức-năng-chính-của-chương-trình)
-  3. [Cấu trúc thư mục chương trình](#cấu-trúc-thư-mục-chương-trình)
+Dự án Java OOP với tích hợp MySQL
+Dự án này là một ứng dụng dựa trên ngôn ngữ lập trình Java, được phát triển theo các nguyên lý của lập trình hướng đối tượng (OOP). Ứng dụng kết nối với cơ sở dữ liệu MySQL để lưu trữ và truy xuất dữ liệu. Dự án mô phỏng một hệ thống quản lý thư viện đơn giản, cho phép thủ thư và người đọc quản lý và truy cập dữ liệu sách cũng như các giao dịch mượn/trả sách
+# 👥 Thành viên
+1. Dinh Long Vu
+2. Nguyen Van Tu
+3. Nguyen Thanh Dat
 
-# Hướng dẫn cài đặt
-1, clone code từ github:
+# 🧰 Công nghệ sử dụng
+Java: Ngôn ngữ lập trình chính.
 
-    git clone https://github.com/nguyenquangpen/QuanLyThuVienJavaMVC.git
+MySQL: Hệ quản trị cơ sở dữ liệu quan hệ để lưu trữ và quản lý dữ liệu.
 
-2, cài đặt java: [java jdk 23](https://www.oracle.com/java/technologies/downloads/)
+JDBC (Java Database Connectivity): Được sử dụng để kết nối và tương tác với MySQL.
 
-3, cài MySql: [sql](https://www.mysql.com/downloads/)
+Eclipse/IntelliJ IDEA: Môi trường phát triển tích hợp (IDE) để xây dựng và chạy ứng dụng.
 
-4, cài intellij idea:[intellij idea](https://www.jetbrains.com/idea/download/?section=windows)
+# Đối tượng cơ sở
+- Thư viện
+- Sách
+- Users
+- Students
 
-7, tạo project maven và cập nhật pom.xml file
 
-5, ghi file QLTV.sql vào mysql và chỉnh lại đường dẫn ở các file trong thư mục dao
+# Nội dung 1:
+Project: Xây dựng ứng dụng quản lý thư viện. Yêu cầu chính:
+- Java Spring Boot
+- Giao diện đơn giản
+- Dữ liệu lưu vào file nhị phân
+- Lưu trữ nội bộ bằng các Collection như ArrayList , Map , LinkedList,...
+# Chức năng chính:
+📚 Quản lý Sách
+- Thêm, sửa, xóa sách
+- Liệt kê danh sách sách
+- Lọc sách theo thể loại, tác giả, năm xuất bản,...
 
-6, chạy chương trình trong gói test (AppConfig)
+👤 Quản lý Độc giả
+- Thêm, sửa, xóa độc giả
+- Liệt kê độc giả
 
-# Các chức năng chính của chương trình
+🔁 Gán sách cho độc giả (Tạo phiếu mượn)
+Gán Book cho Reader → Tạo mới BorrowRecord
 
-- có 2 chứ năng chính (thủ thư) và (độc giả)
-![img.png](photo_introduction/img.png)
+🛠️ Chức năng mở rộng
+- Tìm kiếm sách theo tên hoặc từ khóa
+- Kiểm tra sách còn trong kho hay đã mượn
+- Trả sách → cập nhật returnDate của BorrowRecord
+- Xuất báo cáo mượn/trả theo tháng
+# Nội dung 2:
+- UML Class Diagram (mô tả mối quan hệ giữa các lớp):
+![image](https://github.com/user-attachments/assets/77ac0b69-48ae-458c-b627-97bd6e435b1c)
 
-  - Một số chức năng chính thủ Thư
-    - Quản lý sách
-    - Quản lý độc giả
-    - Quản lý mượn trả sách
-    - Hiện bill
-    
-  ![img_7.png](photo_introduction/img_7.png)
-  ![img_4.png](photo_introduction/img_4.png)
+# Nội dung 3:
+![image](https://github.com/user-attachments/assets/1014731c-51df-4682-9957-9cca20c883a7)
 
-  - Một Số chức năng chính của độc giả
-    - Mượn sách
-    - Trả sách
-    - Xem thông tin sách
-    - Đăng Ký Thẻ mượn
-    
-  ![img_6.png](photo_introduction/img_6.png)
-  ![img_8.png](photo_introduction/img_8.png)
-  
-  - Ngoài ra còn 1 số chức năng khác như:
-    - Đăng nhập, đăng xuất cho thủ thư
-    - Đăng nhập, đăng xuất cho độc giả
-    - Thoát
-# Cấu trúc thư mục chương trình
-Cấu trúc tổng quan ( là một nửa các chức năng của chương trình)
+import java.util.ArrayList;
 
-Vào thư mục src/main/java để xem chi tiết
-```QuanLyThuVienJavaMVC/
-├── README.md
-├── pom.xml
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   ├── dao/
-│   │   │   │   ├── AcceptNoDao.java
-│   │   │   │   ├── StudentDAO.java
-│   │   │   │   ├── TransactionDao.java
-│   │   │   ├── model/
-│   │   │   │   ├── AcceptNo.java
-│   │   │   │   ├── Student.java
-│   │   │   │   ├── Transaction.java
-│   │   │   ├── view/
-│   │   │   │   ├── AcceptNoView.java
-│   │   │   │   ├── BillView.java
-│   │   │   │   ├── QLSachView.java
-│   │   │   │   ├── StudentView.java
-│   │   │   │   ├── TransactionView.java
-│   │   │   ├── controller/
-│   │   │   │   ├── TransactionController.java
-│   │   ├── resources/
-│   │   │   ├── db_config.properties
-│   ├── test/
-│   │   ├── java/
-│   │   │   ├── AppConfig.java
-│   │   │   ├── TestAcceptNo.java
+public class BookList {
+
+    ArrayList<Book> books = new ArrayList<>();
+
+    // Add Book
+    public ArrayList<Book> addBook(Book book) {
+        books.add(book);
+        return books;
+    }
+
+    // Edit Book
+    public ArrayList<Book> editBook(int bookId, String newTitle, String newAuthor) {
+        for (int i = 0; i < books.size(); i++) {
+            if (books.get(i).bookId == bookId) {
+                books.get(i).title = newTitle;
+                books.get(i).author = newAuthor;
+            }
+        }
+        return books;
+    }
+
+    // Delete Book
+    public ArrayList<Book> deleteBook(int bookId) {
+        for (int i = 0; i < books.size(); i++) {
+            if (books.get(i).bookId == bookId) {
+                books.remove(i);
+                break;
+            }
+        }
+        return books;
+    }
+
+    public void printBooks() {
+        for (Book b : books) {
+            System.out.println("Book ID: " + b.bookId + " | Title: " + b.title + " | Author: " + b.author);
+        }
+    }
+}
+
+# Sequence Diagram Add Book
+![65ec6df2-6626-4592-9f5a-6192fb92b173](https://github.com/user-attachments/assets/d90cb324-3eb2-4c20-9b8a-180c2b65e3f7)
+
+# Sequence Diagram Edit Book
+![5086a730-a858-44ed-88cd-10a6f5e7e069](https://github.com/user-attachments/assets/eb3e6431-664b-4978-9415-3ecc82d59fa8)
+
+# Sequence Diagram Delete Book
+![3237d84b-34ac-4772-afd6-b54a6cbec862](https://github.com/user-attachments/assets/2ff3ff98-7a7f-4723-bf7c-54934726360a)
+
+
+# Lưu Đồ Thuật Toán
+![image](https://github.com/user-attachments/assets/b012a1a2-c605-4bb5-8897-559113a1686f)
+
+# UML Class 
+![image](https://github.com/user-attachments/assets/96e5b3ef-51fb-4009-aa7b-76498ebc981d)
