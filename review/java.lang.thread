@@ -1,7 +1,10 @@
 public class ClassName extends Thread {
-ClassName cn = new ClassName();
-cn.start(); //start concurrent prog
-public void run (){
-//override run() of thread
- }
+    public ClassName() {
+        ClassName cn = new ClassName(); 
+        cn.start(); 
+    }
+
+    public void run() {
+        System.out.println("Luồng đang chạy...");
+    }
 }
