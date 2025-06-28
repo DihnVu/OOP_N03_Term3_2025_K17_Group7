@@ -28,9 +28,12 @@ Eclipse/IntelliJ IDEA: Môi trường phát triển tích hợp (IDE) để xây
 # Nội dung 1:
 Project: Xây dựng ứng dụng quản lý thư viện:
 - Java swing
-- Giao diện đơn giản
-- Dữ liệu lưu vào file nhị phân
-- Lưu trữ nội bộ bằng các Collection như ArrayList , Map , LinkedList,...
+- Giao diện đơn giản thân thiện với người dùng, được 
+phát triển bằng Java Swing, cho phép người dùng dễ dàng 
+tương tác với hệ thống thông qua các thao tác trực quan.
+- Theo dõi tồn kho sách, lịch sử mượn, và tình trạng bạn 
+đọc.
+
 # Chức năng chính:
 📚 Quản lý Sách
 - Thêm, sửa, xóa sách
