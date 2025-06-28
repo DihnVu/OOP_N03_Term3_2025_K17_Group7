@@ -28,7 +28,6 @@ Eclipse/IntelliJ IDEA: Môi trường phát triển tích hợp (IDE) để xây
 # Nội dung 1:
 Project: Xây dựng ứng dụng quản lý thư viện:
 - Java swing
-- Java Spring Boot
 - Giao diện đơn giản
 - Dữ liệu lưu vào file nhị phân
 - Lưu trữ nội bộ bằng các Collection như ArrayList , Map , LinkedList,...
